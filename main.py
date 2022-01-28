@@ -76,7 +76,7 @@ checkmarks.config(font=(FONT_NAME, 10, "bold"), bg=GREEN, fg=RED)
 # Canvas with Tomato Image
 canvas = Canvas(width=202, height=223, bg=GREEN, highlightthickness=0)
 canvas.grid(column=1, row=1)
-tomato = PhotoImage(file="tomato.png")
+tomato = PhotoImage(file="images/tomato.png")
 canvas.create_image((101, 110), image=tomato)
 timer_text = canvas.create_text((101, 130), text="00:00", font=(FONT_NAME, 30, "bold"), fill="white")
 
